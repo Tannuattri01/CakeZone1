@@ -1,0 +1,45 @@
+ @import "tailwindcss";
+ .text1{
+  font-family: 'Great Vibes', cursive;
+  color: orange;
+  top: 80px;
+  font-size: 51px;
+    left: 133px;
+}
+.text2{
+  color: white;
+    top: 151px;
+    font-size: 57px;
+    left: 133px;
+}
+.text3{
+  position: absolute;
+  color: white;
+    top: 242px;
+    font-size: 40px;
+    left: 133px;
+}
+.about-heading{
+  font-family: 'Great Vibes', cursive;
+  color:orange;
+  text-align: center;
+  font-size:70px;
+  font-weight: 900;
+}
+.about-wel{
+  text-align: center;
+  font-size:70px;
+  font-weight: 900;
+}
+.about-img{
+  height: 500px;
+}
+.about-img-text{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin-left: 50px;
+  margin-top:50px;
+}
+
+
