@@ -30,9 +30,8 @@ function Us() {
           <div className="flex flex-col md:flex-row justify-evenly items-start gap-10 mt-12 ml-4 md:ml-12">
             {/* Image */}
             <div className="w-full md:w-[40%] max-h-[500px] overflow-hidden">
-              <img
-                src="./images/cake.jpg"
-                alt="Cake"
+             <img src="/images/cake.jpg" alt="Cake" 
+
                 className="w-full h-full object-cover"
               />
             </div>
@@ -154,7 +153,7 @@ function Us() {
       <footer className="bg-black text-white px-6 py-12 mt-20">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <img className="h-[90px]" src="./cake-log1.png" alt="CakeZone Logo" />
+            <img className="h-[90px]" src="/cake-log1.png" alt="CakeZone Logo" />
             <p className="mt-4 text-sm">
               Taste the best cakes in town with love and passion. Baked fresh daily!
             </p>

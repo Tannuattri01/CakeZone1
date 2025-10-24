@@ -32,12 +32,12 @@ function Menu() {
       {/* Cakes Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
         {[
-          { image: "./images/cake-1.jpg", title: "Birthday Cake" },
-          { image: "./images/cake-2.jpg", title: "Wedding Cake" },
-          { image: "./images/cake-3.jpg", title: "Custom Cake" },
-          { image: "./images/cake-1.jpg", title: "Birthday Cake" },
-          { image: "./images/cake-2.jpg", title: "Wedding Cake" },
-          { image: "./images/cake-3.jpg", title: "Custom Cake" },
+          { image: "/images/cake-1.jpg", title: "Birthday Cake" },
+          { image: "/images/cake-2.jpg", title: "Wedding Cake" },
+          { image: "/images/cake-3.jpg", title: "Custom Cake" },
+          { image: "/images/cake-1.jpg", title: "Birthday Cake" },
+          { image: "/images/cake-2.jpg", title: "Wedding Cake" },
+          { image: "/images/cake-3.jpg", title: "Custom Cake" },
         ].map((cake, index) => (
           <div
             key={index}

@@ -17,10 +17,10 @@ function About() {
         </h1>
 
         <div className="flex flex-col md:flex-row justify-evenly items-start gap-10 mt-12 ml-4 md:ml-12">
-          {/* Image */}
+          {/* ✅ Correct Image Path */}
           <div className="w-full md:w-[40%] max-h-[500px] overflow-hidden">
             <img
-              src="./images/cake.jpg"
+              src="/images/cake.jpg"
               alt="Cake"
               className="w-full h-full object-cover"
             />
@@ -42,7 +42,7 @@ function About() {
             {/* Icons Section */}
             <div className="flex flex-col md:flex-row gap-8 mt-8 w-full flex-wrap">
               {/* Box 1 */}
-              <div className=" w-full md:w-[45%]">
+              <div className="w-full md:w-[45%]">
                 <div className="bg-orange-400 w-[100px] h-32 relative flex justify-center items-center">
                   <div className="border border-white absolute h-24 w-20 top-4 left-2 flex justify-center items-center">
                     <i className="fas fa-heart-crack text-white text-3xl"></i>
@@ -57,7 +57,7 @@ function About() {
               </div>
 
               {/* Box 2 */}
-              <div className=" w-full md:w-[45%]">
+              <div className="w-full md:w-[45%]">
                 <div className="bg-orange-400 w-[100px] h-32 relative flex justify-center items-center">
                   <div className="border border-white absolute h-24 w-20 top-4 left-2 flex justify-center items-center">
                     <i className="fas fa-medal text-white text-3xl"></i>
